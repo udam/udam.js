@@ -13,14 +13,14 @@ output statement
 if statement
 ----------------
     Normal
-    <hastravelitem>Y---[output travel]
+    <hasAccount>Y---[follow the_account]
     N
     |
     |
-    [output ichiba]
+    [goodbye]
 
     Nest
-    <hasTravelBrowsingHistory>Y---[output travel_item]
+    <hasTwitterAccount>Y---[follow twitter_account]
     N
     |
     |
