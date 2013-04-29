@@ -32,3 +32,31 @@ if statement
     |
     |
     [Goodbye]
+
+    Nest2
+    <hasTwitterAccount zuqqhi2>Y---[follow twitter_account]---[submit comment,hello]
+    N
+    |
+    |
+    <hasFacebookAccount zuqqhi2>Y-----[request friend,facebook_account]
+    N
+    |
+    |
+    |
+    |
+    |
+    [Goodbye]
+
+    Demo
+    <hasTwitterAccount id>Y---[getTweet id]---[outputTweets]
+    N
+    |
+    |
+    <hasYoutubeAccount id>Y-----[youtube_search keyword,30]
+    N
+    |
+    |
+    |
+    |
+    |
+    [alert "nothing"]
